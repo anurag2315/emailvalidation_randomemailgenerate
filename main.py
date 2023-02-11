@@ -4,7 +4,7 @@
 #.2,3
 
 #to verify email
-"""import re
+import re
 
 def is_valid_email(email):
     # Define the pattern to match a valid email address
@@ -23,10 +23,10 @@ email = input("Enter your email address: ")
 if is_valid_email(email):
     print("The email address is valid.")
 else:
-    print("The email address is not valid.")""""
+    print("The email address is not valid.")
 
 #to generate random email 
-"""import re
+import re
 import random
 
 def generate_email(name, surname, count=0):
@@ -55,4 +55,3 @@ email = generate_email(name, surname)
 # Print the email address
 print("Your email address is: " + email)
 
-"""
