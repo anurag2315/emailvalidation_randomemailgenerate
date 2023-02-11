@@ -1,9 +1,5 @@
-#a wscube@gmail.com
-#0-9
-#._ time1
-#.2,3
 
-#to verify email
+#IT first take input from the user and verify email and after if you wish to genrate a random email it can also do it. 
 import re
 
 def is_valid_email(email):
